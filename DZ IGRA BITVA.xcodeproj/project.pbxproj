@@ -1,0 +1,666 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4029D5F12BA7725C00D48FCA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4029D5F02BA7725C00D48FCA /* AppDelegate.swift */; };
+		4029D5F32BA7725C00D48FCA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4029D5F22BA7725C00D48FCA /* SceneDelegate.swift */; };
+		4029D5F52BA7725C00D48FCA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4029D5F42BA7725C00D48FCA /* ViewController.swift */; };
+		4029D5F82BA7725C00D48FCA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4029D5F62BA7725C00D48FCA /* Main.storyboard */; };
+		4029D5FA2BA7725F00D48FCA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4029D5F92BA7725F00D48FCA /* Assets.xcassets */; };
+		4029D5FD2BA7725F00D48FCA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4029D5FB2BA7725F00D48FCA /* LaunchScreen.storyboard */; };
+		4029D6082BA7725F00D48FCA /* DZ_IGRA_BITVATests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4029D6072BA7725F00D48FCA /* DZ_IGRA_BITVATests.swift */; };
+		4029D6122BA7725F00D48FCA /* DZ_IGRA_BITVAUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4029D6112BA7725F00D48FCA /* DZ_IGRA_BITVAUITests.swift */; };
+		4029D6142BA7725F00D48FCA /* DZ_IGRA_BITVAUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4029D6132BA7725F00D48FCA /* DZ_IGRA_BITVAUITestsLaunchTests.swift */; };
+		4029D6232BA7728A00D48FCA /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 4029D6222BA7728A00D48FCA /* SnapKit */; };
+		4029D6262BA772A000D48FCA /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 4029D6252BA772A000D48FCA /* Alamofire */; };
+		40986AE52BAEDF94007A913D /* Параметры.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40986AE42BAEDF94007A913D /* Параметры.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4029D6042BA7725F00D48FCA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4029D5E52BA7725C00D48FCA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4029D5EC2BA7725C00D48FCA;
+			remoteInfo = "DZ IGRA BITVA";
+		};
+		4029D60E2BA7725F00D48FCA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4029D5E52BA7725C00D48FCA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4029D5EC2BA7725C00D48FCA;
+			remoteInfo = "DZ IGRA BITVA";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4029D5ED2BA7725C00D48FCA /* DZ IGRA BITVA.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "DZ IGRA BITVA.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4029D5F02BA7725C00D48FCA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4029D5F22BA7725C00D48FCA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		4029D5F42BA7725C00D48FCA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4029D5F72BA7725C00D48FCA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4029D5F92BA7725F00D48FCA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4029D5FC2BA7725F00D48FCA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4029D5FE2BA7725F00D48FCA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4029D6032BA7725F00D48FCA /* DZ IGRA BITVATests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "DZ IGRA BITVATests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4029D6072BA7725F00D48FCA /* DZ_IGRA_BITVATests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DZ_IGRA_BITVATests.swift; sourceTree = "<group>"; };
+		4029D60D2BA7725F00D48FCA /* DZ IGRA BITVAUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "DZ IGRA BITVAUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4029D6112BA7725F00D48FCA /* DZ_IGRA_BITVAUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DZ_IGRA_BITVAUITests.swift; sourceTree = "<group>"; };
+		4029D6132BA7725F00D48FCA /* DZ_IGRA_BITVAUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DZ_IGRA_BITVAUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		40986AE42BAEDF94007A913D /* Параметры.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Параметры.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4029D5EA2BA7725C00D48FCA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4029D6232BA7728A00D48FCA /* SnapKit in Frameworks */,
+				4029D6262BA772A000D48FCA /* Alamofire in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4029D6002BA7725F00D48FCA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4029D60A2BA7725F00D48FCA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4029D5E42BA7725C00D48FCA = {
+			isa = PBXGroup;
+			children = (
+				4029D5EF2BA7725C00D48FCA /* DZ IGRA BITVA */,
+				4029D6062BA7725F00D48FCA /* DZ IGRA BITVATests */,
+				4029D6102BA7725F00D48FCA /* DZ IGRA BITVAUITests */,
+				4029D5EE2BA7725C00D48FCA /* Products */,
+				4029D6212BA7728A00D48FCA /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		4029D5EE2BA7725C00D48FCA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4029D5ED2BA7725C00D48FCA /* DZ IGRA BITVA.app */,
+				4029D6032BA7725F00D48FCA /* DZ IGRA BITVATests.xctest */,
+				4029D60D2BA7725F00D48FCA /* DZ IGRA BITVAUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4029D5EF2BA7725C00D48FCA /* DZ IGRA BITVA */ = {
+			isa = PBXGroup;
+			children = (
+				4029D5F02BA7725C00D48FCA /* AppDelegate.swift */,
+				4029D5F22BA7725C00D48FCA /* SceneDelegate.swift */,
+				4029D5F42BA7725C00D48FCA /* ViewController.swift */,
+				40986AE42BAEDF94007A913D /* Параметры.swift */,
+				4029D5F62BA7725C00D48FCA /* Main.storyboard */,
+				4029D5F92BA7725F00D48FCA /* Assets.xcassets */,
+				4029D5FB2BA7725F00D48FCA /* LaunchScreen.storyboard */,
+				4029D5FE2BA7725F00D48FCA /* Info.plist */,
+			);
+			path = "DZ IGRA BITVA";
+			sourceTree = "<group>";
+		};
+		4029D6062BA7725F00D48FCA /* DZ IGRA BITVATests */ = {
+			isa = PBXGroup;
+			children = (
+				4029D6072BA7725F00D48FCA /* DZ_IGRA_BITVATests.swift */,
+			);
+			path = "DZ IGRA BITVATests";
+			sourceTree = "<group>";
+		};
+		4029D6102BA7725F00D48FCA /* DZ IGRA BITVAUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4029D6112BA7725F00D48FCA /* DZ_IGRA_BITVAUITests.swift */,
+				4029D6132BA7725F00D48FCA /* DZ_IGRA_BITVAUITestsLaunchTests.swift */,
+			);
+			path = "DZ IGRA BITVAUITests";
+			sourceTree = "<group>";
+		};
+		4029D6212BA7728A00D48FCA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4029D5EC2BA7725C00D48FCA /* DZ IGRA BITVA */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4029D6172BA7725F00D48FCA /* Build configuration list for PBXNativeTarget "DZ IGRA BITVA" */;
+			buildPhases = (
+				4029D5E92BA7725C00D48FCA /* Sources */,
+				4029D5EA2BA7725C00D48FCA /* Frameworks */,
+				4029D5EB2BA7725C00D48FCA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "DZ IGRA BITVA";
+			packageProductDependencies = (
+				4029D6222BA7728A00D48FCA /* SnapKit */,
+				4029D6252BA772A000D48FCA /* Alamofire */,
+			);
+			productName = "DZ IGRA BITVA";
+			productReference = 4029D5ED2BA7725C00D48FCA /* DZ IGRA BITVA.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4029D6022BA7725F00D48FCA /* DZ IGRA BITVATests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4029D61A2BA7725F00D48FCA /* Build configuration list for PBXNativeTarget "DZ IGRA BITVATests" */;
+			buildPhases = (
+				4029D5FF2BA7725F00D48FCA /* Sources */,
+				4029D6002BA7725F00D48FCA /* Frameworks */,
+				4029D6012BA7725F00D48FCA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4029D6052BA7725F00D48FCA /* PBXTargetDependency */,
+			);
+			name = "DZ IGRA BITVATests";
+			productName = "DZ IGRA BITVATests";
+			productReference = 4029D6032BA7725F00D48FCA /* DZ IGRA BITVATests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4029D60C2BA7725F00D48FCA /* DZ IGRA BITVAUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4029D61D2BA7725F00D48FCA /* Build configuration list for PBXNativeTarget "DZ IGRA BITVAUITests" */;
+			buildPhases = (
+				4029D6092BA7725F00D48FCA /* Sources */,
+				4029D60A2BA7725F00D48FCA /* Frameworks */,
+				4029D60B2BA7725F00D48FCA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4029D60F2BA7725F00D48FCA /* PBXTargetDependency */,
+			);
+			name = "DZ IGRA BITVAUITests";
+			productName = "DZ IGRA BITVAUITests";
+			productReference = 4029D60D2BA7725F00D48FCA /* DZ IGRA BITVAUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4029D5E52BA7725C00D48FCA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					4029D5EC2BA7725C00D48FCA = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					4029D6022BA7725F00D48FCA = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 4029D5EC2BA7725C00D48FCA;
+					};
+					4029D60C2BA7725F00D48FCA = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 4029D5EC2BA7725C00D48FCA;
+					};
+				};
+			};
+			buildConfigurationList = 4029D5E82BA7725C00D48FCA /* Build configuration list for PBXProject "DZ IGRA BITVA" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4029D5E42BA7725C00D48FCA;
+			packageReferences = (
+				4029D6202BA7728400D48FCA /* XCRemoteSwiftPackageReference "SnapKit" */,
+				4029D6242BA7729800D48FCA /* XCRemoteSwiftPackageReference "Alamofire" */,
+			);
+			productRefGroup = 4029D5EE2BA7725C00D48FCA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4029D5EC2BA7725C00D48FCA /* DZ IGRA BITVA */,
+				4029D6022BA7725F00D48FCA /* DZ IGRA BITVATests */,
+				4029D60C2BA7725F00D48FCA /* DZ IGRA BITVAUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4029D5EB2BA7725C00D48FCA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4029D5FD2BA7725F00D48FCA /* LaunchScreen.storyboard in Resources */,
+				4029D5FA2BA7725F00D48FCA /* Assets.xcassets in Resources */,
+				4029D5F82BA7725C00D48FCA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4029D6012BA7725F00D48FCA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4029D60B2BA7725F00D48FCA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4029D5E92BA7725C00D48FCA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4029D5F52BA7725C00D48FCA /* ViewController.swift in Sources */,
+				4029D5F12BA7725C00D48FCA /* AppDelegate.swift in Sources */,
+				4029D5F32BA7725C00D48FCA /* SceneDelegate.swift in Sources */,
+				40986AE52BAEDF94007A913D /* Параметры.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4029D5FF2BA7725F00D48FCA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4029D6082BA7725F00D48FCA /* DZ_IGRA_BITVATests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4029D6092BA7725F00D48FCA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4029D6142BA7725F00D48FCA /* DZ_IGRA_BITVAUITestsLaunchTests.swift in Sources */,
+				4029D6122BA7725F00D48FCA /* DZ_IGRA_BITVAUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4029D6052BA7725F00D48FCA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4029D5EC2BA7725C00D48FCA /* DZ IGRA BITVA */;
+			targetProxy = 4029D6042BA7725F00D48FCA /* PBXContainerItemProxy */;
+		};
+		4029D60F2BA7725F00D48FCA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4029D5EC2BA7725C00D48FCA /* DZ IGRA BITVA */;
+			targetProxy = 4029D60E2BA7725F00D48FCA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4029D5F62BA7725C00D48FCA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4029D5F72BA7725C00D48FCA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4029D5FB2BA7725F00D48FCA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4029D5FC2BA7725F00D48FCA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4029D6152BA7725F00D48FCA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4029D6162BA7725F00D48FCA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4029D6182BA7725F00D48FCA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2KF4987Y6K;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "DZ IGRA BITVA/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "bk.DZ-IGRA-BITVA";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4029D6192BA7725F00D48FCA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2KF4987Y6K;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "DZ IGRA BITVA/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "bk.DZ-IGRA-BITVA";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		4029D61B2BA7725F00D48FCA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2KF4987Y6K;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "bk.DZ-IGRA-BITVATests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DZ IGRA BITVA.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/DZ IGRA BITVA";
+			};
+			name = Debug;
+		};
+		4029D61C2BA7725F00D48FCA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2KF4987Y6K;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "bk.DZ-IGRA-BITVATests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DZ IGRA BITVA.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/DZ IGRA BITVA";
+			};
+			name = Release;
+		};
+		4029D61E2BA7725F00D48FCA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2KF4987Y6K;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "bk.DZ-IGRA-BITVAUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "DZ IGRA BITVA";
+			};
+			name = Debug;
+		};
+		4029D61F2BA7725F00D48FCA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2KF4987Y6K;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "bk.DZ-IGRA-BITVAUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "DZ IGRA BITVA";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4029D5E82BA7725C00D48FCA /* Build configuration list for PBXProject "DZ IGRA BITVA" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4029D6152BA7725F00D48FCA /* Debug */,
+				4029D6162BA7725F00D48FCA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4029D6172BA7725F00D48FCA /* Build configuration list for PBXNativeTarget "DZ IGRA BITVA" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4029D6182BA7725F00D48FCA /* Debug */,
+				4029D6192BA7725F00D48FCA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4029D61A2BA7725F00D48FCA /* Build configuration list for PBXNativeTarget "DZ IGRA BITVATests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4029D61B2BA7725F00D48FCA /* Debug */,
+				4029D61C2BA7725F00D48FCA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4029D61D2BA7725F00D48FCA /* Build configuration list for PBXNativeTarget "DZ IGRA BITVAUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4029D61E2BA7725F00D48FCA /* Debug */,
+				4029D61F2BA7725F00D48FCA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		4029D6202BA7728400D48FCA /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SnapKit/SnapKit";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.7.1;
+			};
+		};
+		4029D6242BA7729800D48FCA /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.9.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		4029D6222BA7728A00D48FCA /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4029D6202BA7728400D48FCA /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = SnapKit;
+		};
+		4029D6252BA772A000D48FCA /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4029D6242BA7729800D48FCA /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 4029D5E52BA7725C00D48FCA /* Project object */;
+}
